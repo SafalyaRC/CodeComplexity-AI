@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AnalyzeCTA from "./components/AnalyzeCTA";
 
 export default function Home() {
   return (
@@ -82,15 +83,7 @@ export default function Home() {
           </div>
 
           {/* CTA */}
-          <Link
-            href="/analyze"
-            className="group inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-black font-bold px-10 py-4 rounded-xl text-lg transition-all hover:shadow-[0_0_40px_rgba(34,211,238,0.6)] hover:scale-105"
-          >
-            <span>Start Analyzing Code</span>
-            <span className="group-hover:translate-x-1 transition-transform">
-              →
-            </span>
-          </Link>
+          <AnalyzeCTA />
 
           {/* Stats - FIXED SECTION */}
           <div className="grid grid-cols-3 gap-8 mt-20 max-w-3xl mx-auto">
