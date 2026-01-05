@@ -135,6 +135,25 @@ CodeComplexity AI is an AI-powered web application designed to help developers a
 
 ---
 
+# 🛠️ Tech Stack
+
+| Layer          | Technology                          | Purpose                                                     |
+|----------------|--------------------------------------|-------------------------------------------------------------|
+| Frontend       | Next.js (App Router)                 | Routing, server-side rendering, and API integration         |
+| Frontend       | React + TypeScript                   | Component-based UI with static type safety                  |
+| Styling        | Tailwind CSS                         | Utility-first styling with dark theme support               |
+| Code Editor    | Monaco Editor                        | VS Code–like in-browser code editor                         |
+| Backend        | Next.js API Routes                   | Serverless APIs for analysis and authentication             |
+| AI Engine      | Google Gemini API                    | Reasoning-based time and space complexity analysis          |
+| AI Safety      | Prompt Engineering + JSON Validation | Enforces deterministic, structured AI output                |
+| Authentication | Supabase Auth                        | Email/password authentication and Google OAuth              |
+| Database       | Supabase PostgreSQL                  | Persistent storage for user analysis history                |
+| State          | LocalStorage                         | Tracks interview problem progress                           |
+| Deployment     | Vercel                               | CI/CD and serverless production hosting                     |
+
+
+---
+
 # 📂 Project Structure
 
 ```
